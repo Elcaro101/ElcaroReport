@@ -1,0 +1,39 @@
+%!TeX program = xelatex
+\documentclass{style}
+
+\begin{document}
+	
+	% 封面
+	\input{cover}
+	\thispagestyle{empty}
+	\hbox{}
+	\clearpage
+	
+	% 目录
+	\thispagestyle{empty}
+	\pagenumbering{Roman}
+	\setcounter{page}{1}
+	\tableofcontents
+	\clearpage
+	\clearforoddpage
+	
+	% 正文
+	\clearpage
+	\pagenumbering{arabic}
+	\setcounter{page}{1}
+	
+	\input{sections/section1}
+	\clearpage
+	\clearforoddpage
+	
+	\input{sections/section2}
+	\clearpage
+	\clearforoddpage
+	
+	% 参考文献
+	\section*{参考文献} % 取消编号
+	\addcontentsline{toc}{section}{参考文献} % 添加到目录
+	\markboth{参考文献}{参考文献} % 保持页眉
+	\printbibliography[heading=none]
+		
+\end{document}
