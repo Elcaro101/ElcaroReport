@@ -7,19 +7,19 @@
 ~~~
 ElcaroReport
 │  .gitignore
-│  cover.tex				# 封面文件
+│  cover.tex                # 封面文件
 │  LICENSE
-│  main.pdf					# 示例输出
-│  main.tex					# 主体文档
+│  main.pdf                 # 示例输出
+│  main.tex                 # 主体文档
 │  README.md
-│  style.cls				# 样式文件
-│  test.bib					# 引文文件
+│  style.cls                # 样式文件
+│  test.bib                 # 引文文件
 │
-├─figures					# 图片存放
+├─figures                   # 图片存放
 │      nwafu_icon.png
 │      test2.png
 │
-└─sections					# 小节文件
+└─sections                # 小节文件
         section1.tex
         section2.tex
 ~~~
