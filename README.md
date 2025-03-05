@@ -19,7 +19,7 @@ ElcaroReport
 │      nwafu_icon.png
 │      test2.png
 │
-└─sections                # 小节文件
+└─sections                  # 小节文件
         section1.tex
         section2.tex
 ~~~
